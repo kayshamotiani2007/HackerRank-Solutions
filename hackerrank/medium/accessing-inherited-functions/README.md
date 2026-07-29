@@ -148,7 +148,7 @@ $1 \le $ *new\_val* $\le 10000 $
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T20:05:36.859Z  
+**Submitted:** 2026-07-29T20:06:08.065Z  
 
 ```cpp
 #include <cmath>
