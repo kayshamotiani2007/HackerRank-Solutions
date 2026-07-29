@@ -28,7 +28,7 @@ Create a class called *Equilateral* which inherits from *Isosceles* and should h
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T20:05:20.581Z  
+**Submitted:** 2026-07-29T20:05:57.449Z  
 
 ```cpp
 #include <cmath>
