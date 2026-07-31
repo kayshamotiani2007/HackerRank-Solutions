@@ -5,7 +5,7 @@ public:
         unordered_set<int> st;
         int n = nums.size();
         int longest=1;
-        int cnt=1;
+        
 
         if (n==0) return 0;
 
@@ -15,6 +15,7 @@ public:
 
         for ( auto it:st) {
             if (st.find(it-1) == st.end()) {
+                int cnt = 1;
                 int x = it;
 
                 while(st.find(x+1) != st.end()){
