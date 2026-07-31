@@ -45,9 +45,9 @@ Output: 3
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms  
-**Memory:** 8.4 MB  
-**Submitted:** 2026-07-31T20:22:39.608Z  
+**Runtime:** 79 ms (beats 65.16%)  
+**Memory:** 89 MB (beats 49.65%)  
+**Submitted:** 2026-07-31T20:24:36.192Z  
 
 ```cpp
 class Solution {
@@ -57,7 +57,7 @@ public:
         unordered_set<int> st;
         int n = nums.size();
         int longest=1;
-        int cnt=1;
+        
 
         if (n==0) return 0;
 
@@ -67,6 +67,7 @@ public:
 
         for ( auto it:st) {
             if (st.find(it-1) == st.end()) {
+                int cnt = 1;
                 int x = it;
 
                 while(st.find(x+1) != st.end()){
